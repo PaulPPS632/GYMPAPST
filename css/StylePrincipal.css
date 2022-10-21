@@ -1,0 +1,185 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(225, 225, 225);
+}
+.Header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: rgb(45, 45, 45);
+    color: #fff;
+}
+.Header li:hover{
+    color: rgb(211, 201, 0);
+}
+.Logo {
+    display: inline-flex;
+    margin: 10px;
+}
+.Logo_Text{
+    font-size: 35px;
+    font-family: 'Noto Sans', sans-serif;
+    display: block;
+    margin: auto;
+    padding: 0 10%;
+}
+.Logo_Image{
+    margin: auto;
+}
+.Logo_Image img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+.Navegador-icon{
+    display: none;
+}
+.Navegador-container{
+    margin: 0 10%;
+}
+.Navegador{
+    float: right;
+    margin: 8.8px 0;/*(100px de header - tamaño de div)/2*/
+    padding: 0;
+    font-size: 20px; 
+    font-family: 'Noto Sans', sans-serif;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+.Carrusel-Container{
+    width: 100%;
+}
+.Imagen{
+    width: 100%;
+    
+}
+.Imagen img{
+    width: 100%;
+    object-fit: contain;
+}
+
+
+/* CARD DE SEDES*/
+.Sedes-flex{
+    display: flex;
+    min-width: 400px;
+    max-width: 1600px;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Sedes-Card{
+    height: 350px;
+    width: 300px;
+    background-color: rgb(254, 254, 254);
+    margin: 20px;
+    border-radius: 5%;
+    overflow: hidden;
+}
+.Card-contein-img{
+    height: 250px;
+    width: 300px;
+}
+.Card-locate{
+    width: 300px;
+    display: flex;
+    position: absolute;
+    font-size: small;
+    font-family: 'Noto Sans', sans-serif;
+    color: #fff;
+}
+.Card-locate span{
+    width: 24px;
+    height: 24px;
+    margin: auto 5%;
+}
+
+.Card-img{
+    height: 250px;
+    width: 300px;
+    overflow: hidden;
+}
+.Card-img img{
+    transition: 0.5s;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.Card-img img:hover{
+    transition: 0.5s;
+    height: 105%;
+    width: 105%;
+    object-fit: cover;
+}
+.Card-promociones{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(0, 0, 0, 0.5);
+    justify-content: center;
+    position: relative;
+    top: -40%;
+    color: rgb(255, 255, 255);
+}
+.flex{
+    display: flex;
+}
+.vertical{
+    flex-direction: column;
+}
+.promociones-pro{
+    border-right: solid 1px;
+    border-color: #fff;
+    padding: 10px 30px 10px 10px;
+}
+.promociones-normal{
+    padding: 10px 10px 10px 30px;
+}
+.promociones-pro div{
+    height: auto;
+}
+.promociones-normal div{
+    height: auto;
+}
+.promociones-price{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0 auto;
+}
+.entero{
+    font-size: 30px;
+}
+.Card-spam-button{
+    background-color: rgb(241, 0, 0);
+    width: 130px;
+    height: auto;
+    padding: 5px;
+    margin: 10px auto;
+    color: #fff;
+    border: solid 0.5px #000 ;
+    font-family: 'Noto Sans', sans-serif;
+}
+.Card-direction{
+    width: 170px;
+    height: auto;
+    margin: 10px auto;
+}
+footer{
+    height: 100px;
+    width: 100%;
+}
+.Container-footer{
+    height: 100px;
+    padding: 20px;
+    margin: 0 auto;
+    justify-content: center;
+    background-color:  rgb(45, 45, 45);
+    color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+}
+.Container-footer div{
+    margin: 30px;
+}

@@ -5,6 +5,8 @@ body{
     background-color: rgb(225, 225, 225);
 }
 .Header {
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
     height: 100px;
